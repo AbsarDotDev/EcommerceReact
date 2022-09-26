@@ -28,6 +28,30 @@ const _nav = [
   },
   {
     component: CNavTitle,
+    name: 'Ecommerce',
+  },
+
+  {
+    component: CNavGroup,
+    name: 'Products',
+    to: '/products',
+    icon: <CIcon icon={cilCursor} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'All Products',
+        to: '/products/all',
+      },
+      {
+        component: CNavItem,
+        name: 'Add New',
+        to: '/products/addnew',
+      },
+
+    ],
+  },
+  {
+    component: CNavTitle,
     name: 'Theme',
   },
   {
