@@ -34,18 +34,18 @@ const _nav = [
   {
     component: CNavGroup,
     name: 'Products',
-    to: '/products',
+    to: '/products/allproducts',
     icon: <CIcon icon={cilCursor} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
         name: 'All Products',
-        to: '/products/all',
+        to: '/products/allproducts',
       },
       {
         component: CNavItem,
         name: 'Add New',
-        to: '/products/addnew',
+        to: '/products/allproducts',
       },
 
     ],
